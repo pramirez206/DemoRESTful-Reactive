@@ -8,5 +8,6 @@ import javax.validation.Valid;
 
 @FunctionalInterface
 public interface GuardarDato {
+
     public Mono<String> apply(DatoDTO datoDTO);
 }
